@@ -60,7 +60,56 @@ def main():
             "ayah": 10,
             "arabic": "قُلۡ یٰعِبَادِ الَّذِیۡنَ اٰمَنُوا اتَّقُوۡا رَبَّکُمۡ ؕ لِلَّذِیۡنَ اَحۡسَنُوۡا فِیۡ ہٰذِہِ  الدُّنۡیَا حَسَنَۃٌ ؕ وَ اَرۡضُ اللّٰہِ  وَاسِعَۃٌ ؕ اِنَّمَا یُوَفَّی الصّٰبِرُوۡنَ  اَجۡرَہُمۡ بِغَیۡرِ حِسَابٍ ",
             "english": "Say, 'O My servants who have believed, fear your Lord. For those who do good in this world is good, and the earth of Allah is spacious. Indeed, the patient will be given their reward without account.'"
-        }
+        }, 
+        {
+            "_id": 9,
+            "surah": 9,
+            "ayah": 15,
+            "arabic": "وَ یُذۡہِبۡ غَیۡظَ قُلُوۡبِہِمۡ ؕ وَ یَتُوۡبُ اللّٰہُ عَلٰی مَنۡ  یَّشَآءُ ؕ وَ اللّٰہُ عَلِیۡمٌ  حَکِیۡمٌ",
+            "english": "And remove the fury in the believer's hearts. And Allah turns in forgiveness to whom He wills; and Allah is Knowing and Wise."
+        },
+        {
+            "_id": 10,
+            "surah": 7,
+            "ayah": 199,
+            "arabic": "خُذِ الۡعَفۡوَ وَ اۡمُرۡ بِالۡعُرۡفِ وَ اَعۡرِضۡ عَنِ  الۡجٰہِلِیۡنَ",
+            "english": "Take what is given freely, enjoin what is good, and turn away from the ignorant."
+        },
+        {
+            "_id": 11,
+            "surah": 25,
+            "ayah": 63,
+            "arabic": "وَ عِبَادُ  الرَّحۡمٰنِ الَّذِیۡنَ  یَمۡشُوۡنَ عَلَی الۡاَرۡضِ ہَوۡنًا وَّ اِذَا خَاطَبَہُمُ الۡجٰہِلُوۡنَ  قَالُوۡا سَلٰمًا",
+            "english": "And the servants of the Most Merciful are those who walk upon the earth easily, and when the ignorant address them [harshly], they say [words of] peace"
+        },
+        {
+            "_id": 12,
+            "surah": 2,
+            "ayah": 263,
+            "arabic": "قَوۡلٌ مَّعۡرُوۡفٌ وَّ مَغۡفِرَۃٌ خَیۡرٌ مِّنۡ صَدَقَۃٍ یَّتۡبَعُہَاۤ  اَذًی ؕ وَ اللّٰہُ غَنِیٌّ حَلِیۡمٌ",
+            "english": "Kind speech and forgiveness are better than charity followed by injury. And Allah is Free of need and Forbearing."
+        },
+        {
+            "_id": 13,
+            "surah": 28,
+            "ayah": 54,
+            "arabic": "اُولٰٓئِکَ یُؤۡتَوۡنَ اَجۡرَہُمۡ مَّرَّتَیۡنِ بِمَا صَبَرُوۡا وَ یَدۡرَءُوۡنَ بِالۡحَسَنَۃِ  السَّیِّئَۃَ  وَ  مِمَّا  رَزَقۡنٰہُمۡ  یُنۡفِقُوۡنَ",
+            "english": "Those will be given their reward twice for what they patiently endured and [because] they avert evil through good, and from what We have provided them they spend."
+        },
+        {
+            "_id": 14,
+            "surah": 42,
+            "ayah": 40,
+            "arabic": "وَ جَزٰٓؤُا سَیِّئَۃٍ  سَیِّئَۃٌ  مِّثۡلُہَا ۚ فَمَنۡ عَفَا وَ اَصۡلَحَ  فَاَجۡرُہٗ  عَلَی اللّٰہِ ؕ اِنَّہٗ  لَا یُحِبُّ الظّٰلِمِیۡنَ",
+            "english": "And the retribution for an evil act is an evil one like it, but whoever pardons and makes reconciliation – his reward is [due] from Allah . Indeed, He does not like wrongdoers."
+        },
+        {
+            "_id": 15,
+            "surah": 8,
+            "ayah": 46,
+            "arabic": "اِنَّ  اللّٰہَ  مَعَ  الصّٰبِرِیۡنَ",
+            "english": "Indeed, Allah is with the patient."
+        },
     ]
     collection1.insert_many(dictionary1)
     # Adding "Disgust" collection in the database
@@ -136,6 +185,20 @@ def main():
             "arabic": "وَ لَا تَسۡتَوِی الۡحَسَنَۃُ  وَ لَا السَّیِّئَۃُ ؕ اِدۡفَعۡ  بِالَّتِیۡ  ہِیَ  اَحۡسَنُ فَاِذَا الَّذِیۡ بَیۡنَکَ وَ بَیۡنَہٗ  عَدَاوَۃٌ کَاَنَّہٗ  وَلِیٌّ حَمِیۡمٌ",
             "english": "And not equal are the good deed and the bad. Repel [evil] by that [deed] which is better; and thereupon the one whom between you and him is enmity [will become] as though he was a devoted friend."
         },
+        {
+            "_id": 11,
+            "surah": 65,
+            "ayah": 4,
+            "arabic": " وَ مَنۡ یَّتَّقِ اللّٰہَ  یَجۡعَلۡ لَّہٗ  مِنۡ  اَمۡرِہٖ یُسۡرًا",
+            "english": "And whoever fears Allah – He will make for him of his matter ease."
+        },
+        {
+            "_id": 12,
+            "surah": 8,
+            "ayah": 28,
+            "arabic": "وَ اعۡلَمُوۡۤا  اَنَّمَاۤ   اَمۡوَالُکُمۡ  وَ اَوۡلَادُکُمۡ  فِتۡنَۃٌ  ۙ وَّ اَنَّ اللّٰہَ عِنۡدَہٗۤ  اَجۡرٌ  عَظِیۡمٌ",
+            "english": "And know that your properties and your children are but a trial and that Allah has with Him a great reward."
+        }
     ]
     collection2.insert_many(dictionary2)
     # Adding "Fear" collection
@@ -210,6 +273,41 @@ def main():
             "ayah": 5,
             "arabic": " وَ مَنۡ یَّتَّقِ اللّٰہَ یُکَفِّرۡ عَنۡہُ سَیِّاٰتِہٖ وَ یُعۡظِمۡ لَہٗۤ  اَجۡرًا",
             "english": "And and whoever fears Allah - He will remove for him his misdeeds and make great for him his reward"
+        },
+        {
+            "_id": 11,
+            "surah": 7,
+            "ayah": 35,
+            "arabic": "یٰبَنِیۡۤ  اٰدَمَ  اِمَّا یَاۡتِیَنَّکُمۡ رُسُلٌ مِّنۡکُمۡ یَقُصُّوۡنَ عَلَیۡکُمۡ اٰیٰتِیۡ ۙ فَمَنِ اتَّقٰی وَ اَصۡلَحَ فَلَا خَوۡفٌ عَلَیۡہِمۡ وَ لَا ہُمۡ یَحۡزَنُوۡنَ",
+            "english": "O children of Adam, if there come to you messengers from among you relating to you My verses, then whoever fears Allah and reforms – there will be no fear concerning them, nor will they grieve."
+        },
+        {
+            "_id": 12,
+            "surah": 59,
+            "ayah": 13,
+            "arabic": "لَاَنۡتُمۡ  اَشَدُّ رَہۡبَۃً  فِیۡ  صُدُوۡرِہِمۡ  مِّنَ اللّٰہِ ؕ ذٰلِکَ بِاَنَّہُمۡ  قَوۡمٌ لَّا یَفۡقَہُوۡنَ",
+            "english": "You [believers] are more fearful within their breasts than Allah . That is because they are a people who do not understand."
+        },
+        {
+            "_id": 13,
+            "surah": 2,
+            "ayah": 194,
+            "arabic": "  ۪ وَ اتَّقُوا اللّٰہَ وَ اعۡلَمُوۡۤا  اَنَّ اللّٰہَ مَعَ  الۡمُتَّقِیۡنَ",
+            "english": "And fear Allah and know that Allah is with those who fear Him."
+        },
+        {
+            "_id": 14,
+            "surah": 57,
+            "ayah": 28,
+            "arabic": "یٰۤاَیُّہَا الَّذِیۡنَ اٰمَنُوا اتَّقُوا اللّٰہَ  وَ اٰمِنُوۡا بِرَسُوۡلِہٖ یُؤۡتِکُمۡ کِفۡلَیۡنِ مِنۡ رَّحۡمَتِہٖ وَ یَجۡعَلۡ  لَّکُمۡ  نُوۡرًا تَمۡشُوۡنَ بِہٖ وَ یَغۡفِرۡ لَکُمۡ ؕ وَ اللّٰہُ  غَفُوۡرٌ رَّحِیۡمٌ",
+            "english": "O you who have believed, fear Allah and believe in His Messenger; He will [then] give you a double portion of His mercy and make for you a light by which you will walk and forgive you; and Allah is Forgiving and Merciful."
+        },
+        {
+            "_id": 15,
+            "surah": 20,
+            "ayah": 46,
+            "arabic": "قَالَ لَا تَخَافَاۤ اِنَّنِیۡ مَعَکُمَاۤ  اَسۡمَعُ وَ اَرٰی",
+            "english": "[ Allah ] said, “Fear not. Indeed, I am with you both; I hear and I see."
         }
     ]
     collection3.insert_many(dictionary3)
@@ -286,6 +384,48 @@ def main():
             "arabic": "وَ مَنۡ شَکَرَ فَاِنَّمَا یَشۡکُرُ  لِنَفۡسِہٖ ۚ وَ مَنۡ  کَفَرَ  فَاِنَّ رَبِّیۡ غَنِیٌّ  کَرِیۡمٌ",
             "english": "His gratitude is only for [the benefit of] himself. And whoever is ungrateful - then indeed, my Lord is Free of need and Generous."
         },
+        {
+            "_id": 11,
+            "surah": 2,
+            "ayah": 21,
+            "arabic": "یٰۤاَیُّہَا النَّاسُ اعۡبُدُوۡا رَبَّکُمُ الَّذِیۡ خَلَقَکُمۡ وَ الَّذِیۡنَ مِنۡ قَبۡلِکُمۡ لَعَلَّکُمۡ تَتَّقُوۡنَ",
+            "english": " O mankind, worship your Lord, who created you and those before you, that you may become righteous",
+        },
+        {
+            "_id": 12,
+            "surah": 6,
+            "ayah": 32,
+            "arabic": "وَ مَا الۡحَیٰوۃُ  الدُّنۡیَاۤ  اِلَّا  لَعِبٌ وَّ لَہۡوٌ ؕ وَ  لَلدَّارُ الۡاٰخِرَۃُ  خَیۡرٌ  لِّلَّذِیۡنَ  یَتَّقُوۡنَ ؕ اَفَلَا  تَعۡقِلُوۡنَ",
+            "english": "And the worldly life is not but amusement and diversion; but the home of the Hereafter is best for those who fear Allah , so will you not reason?",
+        },
+        {
+            "_id": 13,
+            "surah": 4,
+            "ayah": 124,
+            "arabic": "وَ مَنۡ یَّعۡمَلۡ مِنَ الصّٰلِحٰتِ مِنۡ ذَکَرٍ اَوۡ اُنۡثٰی وَ ہُوَ مُؤۡمِنٌ فَاُولٰٓئِکَ یَدۡخُلُوۡنَ الۡجَنَّۃَ  وَ لَا  یُظۡلَمُوۡنَ  نَقِیۡرًا",
+            "english": "And whoever does righteous deeds, whether male or female, while being a believer – those will enter Paradise and will not be wronged, [even as much as] the speck on a date seed.",
+        },
+        {
+            "_id": 14,
+            "surah": 2,
+            "ayah": 172,
+            "arabic": "یٰۤاَیُّہَا الَّذِیۡنَ اٰمَنُوۡا کُلُوۡا مِنۡ طَیِّبٰتِ مَا رَزَقۡنٰکُمۡ وَ اشۡکُرُوۡا لِلّٰہِ  اِنۡ  کُنۡتُمۡ اِیَّاہُ  تَعۡبُدُوۡنَ",
+            "english": "O you who have believed, eat from the good things which We have provided for you and be grateful to Allah if it is [indeed] Him that you worship.",
+        },
+        {
+            "_id": 15,
+            "surah": 18,
+            "ayah": 107,
+            "arabic": "اِنَّ الَّذِیۡنَ اٰمَنُوۡا وَ عَمِلُوا الصّٰلِحٰتِ کَانَتۡ لَہُمۡ  جَنّٰتُ الۡفِرۡدَوۡسِ نُزُلًا",
+            "english": "Indeed, those who have believed and done righteous deeds – they will have the Gardens of Paradise as a lodging",
+        },
+        {
+            "_id": 16,
+            "surah": 16,
+            "ayah": 53,
+            "arabic": "وَ مَا بِکُمۡ مِّنۡ نِّعۡمَۃٍ فَمِنَ اللّٰہِ ثُمَّ  اِذَا مَسَّکُمُ  الضُّرُّ  فَاِلَیۡہِ  تَجۡئَرُوۡنَ",
+            "english": "And whatever you have of favor – it is from Allah . Then when adversity touches you, to Him you cry for help."
+        }
     ]
     collection4.insert_many(dictionary4)
     # Adding "Sad" collection
@@ -356,6 +496,55 @@ def main():
             "arabic": "وَ  وَجَدَکَ ضَآلًّا فَہَدٰی",
             "english": "And He found you lost and guided you" 
         },
+        {
+            "_id": 10,
+            "surah": 3,
+            "ayah": 139,
+            "arabic": "وَ لَا تَہِنُوۡا وَ لَا تَحۡزَنُوۡا وَ اَنۡتُمُ الۡاَعۡلَوۡنَ  اِنۡ  کُنۡتُمۡ مُّؤۡمِنِیۡنَ",
+            "english": "So do not weaken and do not grieve, and you will be superior if you are [true] believers."
+        },
+        {
+            "_id": 11,
+            "surah": 47,
+            "ayah": 31,
+            "arabic": "وَ لَنَبۡلُوَنَّکُمۡ  حَتّٰی نَعۡلَمَ الۡمُجٰہِدِیۡنَ مِنۡکُمۡ وَ الصّٰبِرِیۡنَ ۙ وَ نَبۡلُوَا۠ اَخۡبَارَکُمۡ",
+            "english": "And We will surely test you until We make evident those who strive among you [for the cause of Allah ] and the patient, and We will test your affairs."
+        },
+        {
+            "_id": 12,
+            "surah": 29,
+            "ayah": 69,
+            "arabic": "وَ الَّذِیۡنَ جَاہَدُوۡا فِیۡنَا لَنَہۡدِیَنَّہُمۡ سُبُلَنَا ؕ وَ اِنَّ اللّٰہَ  لَمَعَ الۡمُحۡسِنِیۡنَ",
+            "english": "And those who strive for Us – We will surely guide them to Our ways. And indeed, Allah is with the doers of good."
+        },
+        {
+            "_id": 13,
+            "surah": 17,
+            "ayah": 9,
+            "arabic": "اِنَّ ہٰذَا  الۡقُرۡاٰنَ  یَہۡدِیۡ  لِلَّتِیۡ ہِیَ اَقۡوَمُ وَ یُبَشِّرُ الۡمُؤۡمِنِیۡنَ الَّذِیۡنَ یَعۡمَلُوۡنَ الصّٰلِحٰتِ اَنَّ لَہُمۡ اَجۡرًا کَبِیۡرًا",
+            "english": "Indeed, this Qur'an guides to that which is most suitable and gives good tidings to the believers who do righteous deeds that they will have a great reward."
+        },
+        {
+            "_id": 14,
+            "surah": 65,
+            "ayah": 3,
+            "arabic": "وَّ یَرۡزُقۡہُ  مِنۡ حَیۡثُ لَا یَحۡتَسِبُ ؕ وَ مَنۡ  یَّتَوَکَّلۡ عَلَی اللّٰہِ  فَہُوَ حَسۡبُہٗ",
+            "english": "And will provide for him from where he does not expect. And whoever relies upon Allah – then He is sufficient for him."
+        },
+        {
+            "_id": 15,
+            "surah": 20,
+            "ayah": 132,
+            "arabic": "وَ اۡمُرۡ اَہۡلَکَ بِالصَّلٰوۃِ وَ اصۡطَبِرۡ عَلَیۡہَا ؕ لَا نَسۡئَلُکَ رِزۡقًا ؕ نَحۡنُ نَرۡزُقُکَ ؕ وَ الۡعَاقِبَۃُ  لِلتَّقۡوٰی",
+            "english": "And enjoin prayer upon your family [and people] and be steadfast therein. We ask you not for provision; We provide for you, and the [best] outcome is for [those of] righteousness."
+        },
+        {
+            "_id": 16,
+            "surah": 9,
+            "ayah": 51,
+            "arabic": "وَ عَلَی اللّٰہِ  فَلۡیَتَوَکَّلِ  الۡمُؤۡمِنُوۡنَ",
+            "english": "And upon Allah let the believers rely."
+        }
     ]
 
     collection5.insert_many(dictionary5)
